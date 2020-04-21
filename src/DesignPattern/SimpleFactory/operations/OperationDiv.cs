@@ -4,12 +4,12 @@ namespace SimpleFactory.operations
 {
     public class OperationDiv : Operation
     {
-        public override double GetResult(double numberA, double numberB)
+        public override double GetResult()
         {
-            if (numberB == 0) {
+            if (NumberB == 0) {
                 throw new Exception(" 除数不能为 0 ！");
             }
-            return numberA / numberB;
+            return NumberA / NumberB;
         }
     }
 }

@@ -2,8 +2,9 @@
 {
     public class Operation
     {
-
-        public virtual double GetResult(double numberA, double numberB) {
+        public double NumberA { get; set; }
+        public double NumberB { get; set; }
+        public virtual double GetResult() {
             return 0;
         }
     }

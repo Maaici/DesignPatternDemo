@@ -2,9 +2,9 @@
 {
     public class OperationMul : Operation
     {
-        public override double GetResult(double numberA, double numberB)
+        public override double GetResult()
         {
-            return numberA * numberB;
+            return NumberA * NumberB;
         }
     }
 }
