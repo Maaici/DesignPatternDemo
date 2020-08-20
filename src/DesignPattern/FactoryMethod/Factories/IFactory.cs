@@ -1,10 +1,4 @@
-﻿
-
-
-
-
-
-namespace FactoryMethod.Factories
+﻿namespace FactoryMethod.Factories
 {
     interface IFactory
     {
