@@ -1,8 +1,4 @@
-﻿using AbstractFactory.t_department;
-using AbstractFactory.t_user;
-using System;
-
-namespace AbstractFactory.Factories
+﻿namespace AbstractFactory.Factories
 {
     public class SqlServerFactory : IFactory
     {

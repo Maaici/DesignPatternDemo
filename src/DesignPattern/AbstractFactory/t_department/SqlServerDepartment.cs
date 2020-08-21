@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactory.t_department
+namespace AbstractFactory
 {
     public class SqlServerDepartment : IDepartment
     {

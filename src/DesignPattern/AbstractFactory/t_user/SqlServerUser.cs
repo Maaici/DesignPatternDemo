@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace AbstractFactory.t_user
+namespace AbstractFactory
 {
     public class SqlServerUser : IUser
     {

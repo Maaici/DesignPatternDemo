@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.t_user
+﻿namespace AbstractFactory
 {
     public interface IUser
     {

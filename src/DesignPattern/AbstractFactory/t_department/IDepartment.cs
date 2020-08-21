@@ -1,4 +1,4 @@
-﻿namespace AbstractFactory.t_department
+﻿namespace AbstractFactory
 {
     public interface IDepartment
     {
