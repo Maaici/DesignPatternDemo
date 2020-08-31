@@ -7,7 +7,8 @@ namespace AbstractFactoryForCSDN
     {
         static void Main(string[] args)
         {
-            IComputerProvider computer = new DellComputer();
+            //IComputerProvider computer = new DellComputer();
+            IComputerProvider computer = new MadeInChinaComputer();
 
             ICentralProcessingUnit cpu = computer.GetCPU() ;
             IHardDisk hd = computer.GetHardDisk();
