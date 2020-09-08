@@ -4,8 +4,7 @@ namespace AdapterPattern
 {
     /// <summary>
     /// Mysql帮助类，他没有实现IDbHelper接口
-    /// 假设我们也不太方便修改代码，让他实现接口，但是我们又要用这个类
-    /// 同时又要尽量少的修改已有代码，则可以考虑使用适配器
+    /// 假设我们也不太方便修改代码来让他实现接口
     /// </summary>
     public class MySqlHelper 
     {

@@ -2,6 +2,9 @@
 
 namespace AdapterPattern
 {
+    /// <summary>
+    /// 实现IDbHepler接口，实现增删改查的具体操作方法
+    /// </summary>
     public class SqlServerHelper : IDbHepler
     {
         public void Add<T>()
